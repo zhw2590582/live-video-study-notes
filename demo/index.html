@@ -9,9 +9,13 @@
 </head>
 
 <body>
-    <div class="main"></div>
+    <video id="video" width="320" height="240" controls>
+        <source src="video.mp4" type="video/mp4">
+        您的浏览器不支持 video 标签。
+    </video>
     <script>
-        
+        var video = document.getElementById("video");
+        console.dir(video.fastSeek)
     </script>
 </body>
 
