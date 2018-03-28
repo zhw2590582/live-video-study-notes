@@ -11,14 +11,7 @@
 <body>
     <video controls></video>
     <script>
-        var video = document.querySelector('video');
-        var mediaSource = new MediaSource();
-        video.src = URL.createObjectURL(mediaSource);
-        console.log(mediaSource.sourceBuffers);
-        mediaSource.addEventListener('sourceopen', () => {
-            var sourceBuffer = mediaSource.addSourceBuffer('video/mp4; codecs="avc1.42E01E, mp4a.40.2"');
-            console.log(mediaSource.sourceBuffers)
-        });
+        console.log(URL.createObjectURL)
     </script>
 </body>
 
