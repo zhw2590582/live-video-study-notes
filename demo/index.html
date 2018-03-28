@@ -11,7 +11,10 @@
 <body>
     <video controls></video>
     <script>
-        console.log(URL.createObjectURL)
+        var file = new File(["foo"], "foo.txt", {
+            type: "text/plain",
+        });
+        console.log(file)
     </script>
 </body>
 
