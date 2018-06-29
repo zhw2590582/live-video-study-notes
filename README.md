@@ -33,3 +33,4 @@ https://developer.mozilla.org/zh-CN/docs/Web/API/File/Using_files_from_web_appli
 https://developer.mozilla.org/zh-CN/docs/Web/API/URL/revokeObjectURL
 https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Basics_of_HTTP/MIME_types
 https://developer.mozilla.org/zh-CN/docs/Web/API/FormData
+https://developer.mozilla.org/zh-CN/docs/Web/API/XMLHttpRequest/Sending_and_Receiving_Binary_Data

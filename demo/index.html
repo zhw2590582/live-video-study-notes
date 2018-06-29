@@ -9,12 +9,15 @@
 </head>
 
 <body>
-    <video controls></video>
+    <a download="data.txt" id="getData">下载</a>
     <script>
-        var file = new File(["foo"], "foo.txt", {
-            type: "text/plain",
+        var data = 'Hello world!';
+        var blob = new Blob([data], {
+            type: 'text/html,charset=UTF-8'
         });
-        console.log(file)
+        window.URL = window.URL || window.webkitURL;
+        var test = document.querySelector("#getData");
+        test.href = URL.createObjectURL(blob);
     </script>
 </body>
 
