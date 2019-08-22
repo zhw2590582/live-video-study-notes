@@ -1,6 +1,6 @@
 ## 视频直播学习笔记
 
-> 这是个人针对视频直播相关知识的学习与整理
+> 整理前端视频直播相关技术的笔记，适合想入门前端流媒体技术的人阅读，包教不包会。
 
 1. [位运算符 (Bit Operator)](./01-BitOperator)
 2. [类型数组 (TypedArray)](./02-TypedArray)
@@ -13,4 +13,12 @@
 9. [FFmpeg 使用 (FFmpegUsage)](./09-FFmpegUsage)
 10. [MP4 分析 (MP4 Analysis)](./10-MP4Analysis)
 11. [FLV 分析 (FLV Analysis)](./11-FLVAnalysis)
-12. [Webrtc 使用](./12-Webrtc)
+12. [Webrtc 使用 (Webrtc Usage)](./12-WebrtcUsage)
+
+## QQ 群
+
+![QQ Group](./QQgroup.png)
+
+## License
+
+MIT © [Harvey Zack](https://sleepy.im/)
