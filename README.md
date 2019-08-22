@@ -5,7 +5,7 @@
 1. [位运算符 (Bit Operator)](./01-BitOperator)
 2. [类型数组 (TypedArray)](./02-TypedArray)
 3. [二进制接口 (Web Binary Api)](./03-WebBinaryApi)
-4. [视频 DOM 元素 (HTMLElementVideo)](./04-HTMLElementVideo)
+4. [视频 DOM 元素 (HTML Element Video)](./04-HTMLElementVideo)
 5. [媒体源扩展 (Media Source Extensions)](./05-MediaSourceExtensions)
 6. [视频直播协议 (Video Streaming Protocol)](./06-VideoStreamingProtocol)
 7. [视频文件格式 (Video File Format)](./07-VideoFileFormat)
