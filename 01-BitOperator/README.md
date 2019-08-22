@@ -43,7 +43,7 @@ parseInt("ffffff", 16) === 16777215;
 
 可以看出位运算是内部以二进制进行运算，但都是以`10`进制输出的。
 
-## 字节序
+### 字节序
 
 字节序是初学者不容易理解的概念，甚至在操作时会产生疑惑，但实际上并不用太关心，因为一般一种数据就只有一种字节序。
 
@@ -66,7 +66,7 @@ var b = new Uint8Array(a.buffer);
 var BigEndian = b[0] == 0x12;
 ```
 
-## 数字和 Unicode 互转
+### 数字和 Unicode 互转
 
 > 关于 ASCII，Unicode 和 UTF-8 可以网上查一下，了解一下
 
@@ -82,7 +82,7 @@ String.prototype.charCodeAt.call("中", 0) === 20013;
 "中".charCodeAt(0) === 20013;
 ```
 
-## Base64
+### Base64
 
 `Base64`在数据保存和传输也经常用到，有了以上基础，再看`Base64`原理时就容易得多了。
 

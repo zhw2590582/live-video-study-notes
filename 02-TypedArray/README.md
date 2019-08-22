@@ -3,9 +3,9 @@
 类型数组二进制数据的一个接口，有了它就不像用位运算符操作数据那么痛苦，以下两个链接都把类型数组讲得很清楚，以后会大量用到这个接口，可以当手册查看。
 
 - [ECMAScript 6 入门 - ArrayBuffer](http://es6.ruanyifeng.com/#docs/arraybuffer)
-- [MDN web docs - ArrayBuffer](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer)
+- [MDN Web Docs - ArrayBuffer](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer)
 
-## ArrayBuffer
+### ArrayBuffer
 
 首先是`ArrayBuffer`只负责声明二进制数据，比较简单
 
@@ -23,7 +23,7 @@ ArrayBuffer.prototype.byteLength;
 ArrayBuffer.prototype.slice;
 ```
 
-## TypedArray
+### TypedArray
 
 然后是`TypedArray`，有 `9` 种类型，其中`Uint8Array`是最常见的，因为一个元素就表示一个字节，而且无符号没有负数没有小数的情况，更直观方便。`TypedArray`声明方式有很多，原型对象上有很多类似`Array`的原型的方法，但有几个特殊的属性和方法。
 
@@ -60,7 +60,7 @@ TypedArray.of();
 TypedArray.from();
 ```
 
-## DataView
+### DataView
 
 最后就是`DataView`，它的方法较多，但都是大同小异。
 
