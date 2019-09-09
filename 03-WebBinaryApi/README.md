@@ -9,6 +9,7 @@
 - [MDN Web Docs - HTMLCanvasElement](https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLCanvasElement)
 - [MDN Web Docs - URL.createObjectURL](https://developer.mozilla.org/zh-CN/docs/Web/API/URL/createObjectURL)
 - [MDN Web Docs - URL.revokeObjectURL](https://developer.mozilla.org/zh-CN/docs/Web/API/URL/revokeObjectURL)
+- [MDN Web Docs - TextEncoder](https://developer.mozilla.org/zh-CN/docs/Web/API/TextEncoder/TextEncoder)
 
 ### 获取二进制数据
 
