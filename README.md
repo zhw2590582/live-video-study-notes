@@ -2,6 +2,7 @@
 
 > 整理前端视频直播相关技术的笔记，适合想入门前端流媒体技术的人阅读，包教不包会。
 
+0. [二进制转换 (binary Conversion)](./00-binaryConversion)
 1. [位运算符 (Bit Operator)](./01-BitOperator)
 2. [类型数组 (TypedArray)](./02-TypedArray)
 3. [二进制接口 (Web Binary Api)](./03-WebBinaryApi)
