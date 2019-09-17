@@ -360,6 +360,7 @@ decimalToBinary(245) === "11110101";
 
 至于更具体原理网上也有很多文章：
 
+- [https://ryanstutorials.net/binary-tutorial/binary-floating-point.php](https://ryanstutorials.net/binary-tutorial/binary-floating-point.php)
 - [https://www.h-schmidt.net/FloatConverter/IEEE754.html](https://www.h-schmidt.net/FloatConverter/IEEE754.html)
 - [https://steve.hollasch.net/cgindex/coding/ieeefloat.html](https://steve.hollasch.net/cgindex/coding/ieeefloat.html)
 - [https://www.geeksforgeeks.org/ieee-standard-754-floating-point-numbers/](https://www.geeksforgeeks.org/ieee-standard-754-floating-point-numbers/)
