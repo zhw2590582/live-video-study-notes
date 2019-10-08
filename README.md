@@ -2,19 +2,16 @@
 
 > 整理前端视频直播相关技术的笔记，适合想入门前端流媒体技术的人阅读。
 
-0. [二进制系统 (binary System)](./00-binarySystem)
-1. [位运算符 (Bit Operator)](./01-BitOperator)
-2. [类型数组 (TypedArray)](./02-TypedArray)
-3. [二进制接口 (Web Binary Api)](./03-WebBinaryApi)
-4. [视频 DOM 元素 (HTML Element Video)](./04-HTMLElementVideo)
-5. [Nodejs 缓冲器 (Nodejs Buffer)](./05-NodejsBuffer)
-6. [视频直播协议 (Video Streaming Protocol)](./06-VideoStreamingProtocol)
-7. [视频文件格式 (Video File Format)](./07-VideoFileFormat)
-8. [媒体源扩展 (Media Source Extensions)](./08-MediaSourceExtensions)
-9. [FFmpeg 使用 (FFmpegUsage)](./09-FFmpegUsage)
-10. [MP4 分析 (MP4 Analysis)](./10-MP4Analysis)
-11. [FLV 分析 (FLV Analysis)](./11-FLVAnalysis)
-12. [Webrtc 使用 (Webrtc Usage)](./12-WebrtcUsage)
+0. [前言](./00-foreword) - :white_check_mark:
+1. [二进制系统](./01-binarySystem) - :white_check_mark:
+1. [位运算符](./02-BitOperator) - :white_check_mark:
+1. [类型数组](./03-TypedArray) - :white_check_mark:
+1. [二进制接口](./04-WebBinaryApi) - :white_check_mark:
+1. [视频 DOM 元素](./05-HTMLElementVideo) - :white_check_mark:
+1. [Nodejs 缓冲器](./06-NodejsBuffer) - :white_check_mark:
+1. [媒体源扩展](./07-MediaSourceExtensions)
+1. [MP4 分析](./08-MP4Analysis)
+1. [FLV 分析](./09-FLVAnalysis)
 
 ## License
 
