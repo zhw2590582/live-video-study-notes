@@ -6,10 +6,17 @@
 
 首先是音视频原始信息的采集，就是最简单的打开摄像头/麦克风后所拿到的原始数据。其中视频的原始数据格式就是常见的`RGB`或者`YUV`，`RGB`大家都很熟悉，`YUV`会复杂一些而且根据采样方式不一样又会分出不同的类型，具体需要查一下资料理解一下。音频的原始数据就是`PCM`，也需要查一下资料，而且我可以很肯定的说，音频处理远远的难于视频处理。
 
-前端可以使用`MediaDevices.getUserMedia`接口打开摄像头:
+前端可以使用`MediaDevices.getUserMedia`接口打开摄像头/麦克风:
 
 [MDN Web Docs - MediaDevices.getUserMedia()](https://developer.mozilla.org/zh-CN/docs/Web/API/MediaDevices/getUserMedia)
 
 你会发现上面这个接口很容易的就能实现了一个摄像头到浏览器的实时的播放器，但前端又怎么拿到中间传输的原始视频数据呢？这就轮到`canvas`出场了，因为`canvas`直接的`ctx.drawImage`方法可以直接绘制视频的某一帧，那我可以每秒截取`24`次，然后再用`ctx.getImageData`获取到`RGB`值，那也就可以从把`RGB`转换成`YUV`了，但不得不说这样做又繁琐效率又低下，没什么实际用起来的业务用途。
 
 [MDN Web Docs - 使用 canvas 处理视频](https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API/Manipulating_video_using_canvas)
+
+拿到原始数据之后就是压缩编码啦，因为原始数据实在太大了，例如视频数据编码成`h264`或者`h265`，音频数据编码成`aac`或者`mp3`，用纯`JS`实现软编码过程是非常非常困难的，至少目前没有这种东西，能用的方法就是把其他语言如`C`或者`C++`的现成编码器（如`FFmpeg`）转换成浏览器能运行的`WebAssembly`格式（文件体积通常很大），再配合`Worker`进行编码是最好的方法，但这种高密集的编码运算不适合在浏览器里运行，所有也没什么实际用起来的业务用途。
+
+- [Github - Kagami/ffmpeg.js](https://github.com/Kagami/ffmpeg.js)
+- [Github - bgrins/videoconverter.js](https://github.com/bgrins/videoconverter.js)
+
+接着就是推流到服务器
