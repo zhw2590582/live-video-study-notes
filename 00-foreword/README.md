@@ -19,4 +19,4 @@
 - [Github - Kagami/ffmpeg.js](https://github.com/Kagami/ffmpeg.js)
 - [Github - bgrins/videoconverter.js](https://github.com/bgrins/videoconverter.js)
 
-接着就是推流到服务器
+接着就是推流到服务器，常见的方法有`WebRTC`和`RTMP`，其中使用`RTMP`推流是目前最主流的，但浏览器要使用`RTMP`就要安装`Flash`插件，现在看来明显不合理，而`WebRTC`属于新技术且还没发展成熟，所以先不谈及。
