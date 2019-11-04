@@ -79,6 +79,10 @@ PCM 是一种用于数字表示采样的模拟信号的方法。
 [什么是 PCM](https://www.lifewire.com/what-is-pcm-1846928)
 [https://en.wikipedia.org/wiki/Pulse-code_modulation](https://en.wikipedia.org/wiki/Pulse-code_modulation)
 
+#### AAC (高级音频编码)
+
+[https://en.wikipedia.org/wiki/Advanced_Audio_Coding](https://en.wikipedia.org/wiki/Advanced_Audio_Coding)
+
 #### Channels (声道)
 
 声道数是指处理的声音是单声道还是立体声。单声道在声音处理过程中只有单数据流，而立体声则需要左、右声道的两个数据流。显然，立体声的效果要好，但相应的数据量要比单声道的数据量加倍。
