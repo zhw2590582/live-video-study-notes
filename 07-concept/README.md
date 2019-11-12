@@ -12,6 +12,7 @@
 
 - [MDN Web Docs - 数字视频概念](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Video_concepts)
 - [MDN Web Docs - 网络视频编解码器指南](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Video_codecs)
+- [MDN Web Docs - 图像文件类型和格式指南](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types)
 
 #### Format profile (格式设定)
 
