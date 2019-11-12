@@ -3,10 +3,15 @@
 - [在线查看视频信息：mediainfo.js - shows information about media files](https://mediainfo.js.org/)
 - [在线视频格式转换：convert anything to anything](https://cloudconvert.com/)
 - [视频类型参数：Video type parameters](https://wiki.whatwg.org/wiki/Video_type_parameters)
+- [MDN Web Docs - 常见媒体类型中的“编解码器”参数](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/codecs_parameter)
+- [MDN Web Docs - 媒体容器格式](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Containers)
 
 音视频开发总会遇到很多新名词或新概念，下面是参考了上面的`mediainfo.js`整理出经常接触到的基础概念，以一个`MP4`为例，大部分解释来自搜索引擎，需要更详尽的解释需要多查资料。
 
 ### 视频
+
+- [MDN Web Docs - 数字视频概念](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Video_concepts)
+- [MDN Web Docs - 网络视频编解码器指南](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Video_codecs)
 
 #### Format profile (格式设定)
 
@@ -66,9 +71,9 @@
 
 ### 音频
 
-声波通过一系列快照测量或样本转换为数据。在特定时间在音频波中采样，记录振幅。然后，此信息将转换为可消化的二进制数据。
-
+- [MDN Web Docs - 音频概念](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Audio_concepts)
 - [MDN Web Docs - 网页音频接口的基本概念](https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Audio_API/Basic_concepts_behind_Web_Audio_API)
+- [MDN Web Docs - Web 音频编解码器指南](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Audio_codecs)
 
 ![reconstructing-the-original-signal](./reconstructing-the-original-signal.jpeg)
 
