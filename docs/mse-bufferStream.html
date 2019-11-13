@@ -37,6 +37,8 @@
             fetchAB(assetURL, function (buf) {
                 sourceBuffer.appendBuffer(buf);
             }, function () {
+                console.log(mediaSource);
+                console.log(sourceBuffer);
                 mediaSource.endOfStream();
             });
         };

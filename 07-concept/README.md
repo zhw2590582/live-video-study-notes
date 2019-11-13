@@ -6,7 +6,7 @@
 - [MDN Web Docs - 常见媒体类型中的“编解码器”参数](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/codecs_parameter)
 - [MDN Web Docs - 媒体容器格式](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Containers)
 
-音视频开发总会遇到很多新名词或新概念，下面是参考了上面的`mediainfo.js`整理出经常接触到的基础概念，以一个`MP4`为例，大部分解释来自搜索引擎，需要更详尽的解释需要多查资料。
+音视频开发总会遇到很多新名词或新概念，大部分解释来自搜索引擎，需要更详尽的解释需要多查资料。
 
 ### 视频
 
@@ -59,6 +59,13 @@
 
 - [一文读懂 YUV 的采样与格式](https://glumes.com/post/ffmpeg/understand-yuv-format/)
 - [https://en.wikipedia.org/wiki/Chroma_subsampling](https://en.wikipedia.org/wiki/Chroma_subsampling)
+
+#### I 帧、P 帧、B 帧、GOP、IDR、PTS、DTS
+
+这几个是非常重要的概念，后面解封装或者重封装时肯定会经常遇到，需要多查看相关资料理解。
+
+- [I 帧、P 帧、B 帧、GOP、IDR 和 PTS, DTS 之间的关系](https://www.cnblogs.com/yongdaimi/p/10676309.html)
+- [DTS、PTS 解惑](https://melodyofnight.github.io/2017/04/01/DTS%E3%80%81PTS-%E8%A7%A3%E6%83%91/)
 
 #### 请问：一个分辨率为`1080p`，帧率是`60fps`，色彩空间是`YUV`，色度二次采样为`4：2：2`，颜色位深为`10bit`的未压缩视频，体积有多大？
 
