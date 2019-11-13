@@ -12,10 +12,10 @@
 - [https://html5-demos.appspot.com/static/media-source.html](https://html5-demos.appspot.com/static/media-source.html)
 - [http://nickdesaulniers.github.io/netfix/demo/bufferAll.html](http://nickdesaulniers.github.io/netfix/demo/bufferAll.html)
 
-首先准备好一个 `FMP4`，尝试在整个 `FMP4` 下载完成后，再开始播放，这和直接在`video`标签添加`src`属性没什么差别：
+首先准备好一个 `FMP4`，尝试在整个 `FMP4` 下载完成后再开始播放：
 
 - [加载完再播放](http://zhw2590582.github.io/live-video-study-notes/mse-bufferAll.html)
 
-然后尝试边加载边播放的例子，是通过`ReadableStreamDefaultReader`读取流，或者通过`Header Range`请求头读取分段也可以：
+然后尝试边加载边播放的简单例子，方法很多，我这里是通过`ReadableStreamDefaultReader`读取流：
 
 - [边加载边播放](http://zhw2590582.github.io/live-video-study-notes/mse-bufferStream.html)
