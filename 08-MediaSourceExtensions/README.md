@@ -1,8 +1,10 @@
 ## 媒体源扩展
 
-- [MDN Web Docs - MSE API](https://developer.mozilla.org/zh-CN/docs/Web/API/Media_Source_Extensions_API)
+- [W3C - Media Source Extensions](https://w3c.github.io/media-source/index.html)
+- [MDN Web Docs - Media Source Extensions API](https://developer.mozilla.org/zh-CN/docs/Web/API/Media_Source_Extensions_API)
 - [MDN Web Docs - 为 MSE 做资源格式转换](https://developer.mozilla.org/en-US/docs/Web/API/Media_Source_Extensions_API/Transcoding_assets_for_MSE)
 - [W3C - MSE 字节流格式](https://www.w3.org/TR/mse-byte-stream-format-isobmff/)
+- [W3C - MSE 字节格式注册表](https://w3c.github.io/media-source/byte-stream-format-registry.html)
 - [检测 MP4 资源是否支持 MSE](http://nickdesaulniers.github.io/mp4info/)
 - [MP4 结构在线解析](http://mp4parser.com/)
 - [无 Flash 时代，让直播拥抱 H5（MSE 篇）](https://www.villainhr.com/page/2017/10/10/%E6%97%A0%20Flash%20%E6%97%B6%E4%BB%A3%EF%BC%8C%E8%AE%A9%E7%9B%B4%E6%92%AD%E6%8B%A5%E6%8A%B1%20H5%EF%BC%88MSE%E7%AF%87%EF%BC%89)
