@@ -16,6 +16,6 @@
 
 - [加载完再播放](http://zhw2590582.github.io/live-video-study-notes/mse-bufferAll.html)
 
-然后尝试边加载边播放的例子，方法有两种：通过`ReadableStreamDefaultReader`读取流、通过`Header Range`请求头读取分段：
+然后尝试边加载边播放的例子，是通过`ReadableStreamDefaultReader`读取流，或者通过`Header Range`请求头读取分段也可以：
 
 - [边加载边播放](http://zhw2590582.github.io/live-video-study-notes/mse-bufferStream.html)
