@@ -10,7 +10,7 @@
 1. [视频 DOM 元素](./05-HTMLElementVideo) - :white_check_mark:
 1. [Nodejs 缓冲器](./06-NodejsBuffer) - :white_check_mark:
 1. [音视频概念](./07-concept) - :white_check_mark:
-1. [媒体源扩展](./08-MediaSourceExtensions)
+1. [媒体源扩展](./08-MediaSourceExtensions) - :white_check_mark:
 1. [MP4 格式分析](./09-MP4Analysis)
 1. [FLV 格式分析](./10-FLVAnalysis)
 1. [AAC 格式分析](./11-AACAnalysis)
