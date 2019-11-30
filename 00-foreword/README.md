@@ -23,7 +23,9 @@
 - [Github - Kagami/ffmpeg.js](https://github.com/Kagami/ffmpeg.js)
 - [Github - bgrins/videoconverter.js](https://github.com/bgrins/videoconverter.js)
 
-接着就是推流到服务器，常见的方法有`WebRTC`、`websocket`和`RTMP`，其中使用`RTMP`是个大平台目前视频推流是目前最主流的，但浏览器要使用`RTMP`就要安装`Flash`插件，现在看来明显不合理，用`websocket`推流见得不多，而`WebRTC`属于新技术且还没发展成熟，所以先不谈及。
+接着就是推流到服务器，常见的方法有`WebRTC`、`websocket`和`RTMP`，其中使用`RTMP`是各大平台目前视频推流是目前最主流的，但浏览器要使用`RTMP`就要安装`Flash`插件，现在看来明显不合理，用`websocket`推流见得不多，而`WebRTC`属于新技术且还没发展成熟，所以先不谈及。假如不用网页做推流的话，最流行的软件应该就是开源的`OBS`了。
+
+- [Github - obsproject/obs-studio](https://github.com/obsproject/obs-studio)
 
 接着就是服务器处理接收到的流，这个专门的流媒体服务器需要把音视频数据封装成浏览器能播放的格式如`mp4`、`ts`和`flv`等等，嫌麻烦可以用第三方的云服务，一劳永逸。
 
