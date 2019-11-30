@@ -18,7 +18,7 @@
 
 [MDN Web Docs - 使用 canvas 处理视频](https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API/Manipulating_video_using_canvas)
 
-拿到原始数据之后就是压缩编码啦，因为原始数据实在太大了，例如视频数据编码成`h264`或者`h265`，音频数据编码成`aac`或者`mp3`，这些都可以称作裸流，用纯`JS`实现软编码过程是非常非常困难的，至少目前没有这种东西，能用的方法就是把其他语言如`C`或者`C++`的现成编码器（如`FFmpeg`）转换成浏览器能运行的`WebAssembly`格式（文件体积通常很大），再配合`Worker`进行编码是最好的方法，但这种高密集的编码运算不适合在浏览器里运行，所有也没什么实际用起来的业务用途。
+拿到原始数据之后就是压缩编码啦，因为原始数据实在太大了，例如视频数据编码成`h264`或者`h265`，音频数据编码成`aac`或者`mp3`，这些都可以称作裸流，实际上通过摄像头进来的音视频数据已经被压缩过了，用纯`JS`实现软编码过程是非常困难的，至少目前没有这种东西，能用的方法就是把其他语言如`C`或者`C++`的现成编码器（如`FFmpeg`）转换成浏览器能运行的`WebAssembly`格式（文件体积通常很大），再配合`Worker`进行编码是最好的方法，但这种高密集的编码运算不适合在浏览器里运行，所有也没什么实际用起来的业务用途。
 
 - [Github - Kagami/ffmpeg.js](https://github.com/Kagami/ffmpeg.js)
 - [Github - bgrins/videoconverter.js](https://github.com/bgrins/videoconverter.js)
