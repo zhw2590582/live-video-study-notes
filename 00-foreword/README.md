@@ -10,7 +10,11 @@
 
 [MDN Web Docs - MediaDevices.getUserMedia()](https://developer.mozilla.org/zh-CN/docs/Web/API/MediaDevices/getUserMedia)
 
-你会发现上面这个接口很容易的就能实现了一个摄像头到浏览器的实时的播放器，但前端又怎么拿到中间传输的原始视频数据呢？这就轮到`canvas`出场了，因为`canvas`直接的`ctx.drawImage`方法可以直接绘制视频的某一帧，那我可以每秒截取`24`次，然后再用`ctx.getImageData`获取到`RGB`值，那也就可以从把`RGB`转换成`YUV`了，但不得不说这样做又繁琐效率又低下，没什么实际用起来的业务用途。
+你会发现上面这个接口很容易的就能实现了一个摄像头到浏览器的实时的播放器，但前端又怎么拿到中间传输的原始视频数据呢？这里有一个API叫`MediaRecorder`专门记录媒体流的，通过它可以拿到从摄像头进来的原始音视频字节流：
+
+[MDN Web Docs - MediaRecorder](https://developer.mozilla.org/zh-CN/docs/Web/API/MediaRecorder)
+
+但有时候我们看不懂音视频字节流，我们只想拿到最直接的视频图像数据怎么办，这就轮到`canvas`出场了，因为`canvas`直接的`ctx.drawImage`方法可以直接绘制视频的某一帧，那我可以每秒截取`24`次，然后再用`ctx.getImageData`获取到`RGB`值，那也就可以从把`RGB`转换成`YUV`了，但不得不说这样做又繁琐效率又低下，没什么实际用起来的业务用途。
 
 [MDN Web Docs - 使用 canvas 处理视频](https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API/Manipulating_video_using_canvas)
 
