@@ -38,7 +38,7 @@
 - [Github - video-dev/hls.js](https://github.com/video-dev/hls.js)
 - [Github - bilibili/flv.js](https://github.com/bilibili/flv.js)
 
-但是你会发现点播没问题，但直播的话就不是直接给`video`标签添加`src`地址就能解决的（除了`ios`原生支持的`m38u`地址），因为直播播放的是一个源源不断的数据流，你要不断的给`video`标签发送音视频数据才行，为了解决这个问题就有了`Media Source Extensions`接口专门给`video`发送数据流用的，但目前手机端尚未普及该接口。当然，上面的`hls.js`和`flv.js`都是基于`Media Source Extensions`实现的，所以也是支持直播的。
+但是你会发现点播没问题，但直播的话就不是直接给`video`标签添加`src`地址就能解决的（除了`ios`原生支持的`m3u8`地址），因为直播播放的是一个源源不断的数据流，你要不断的给`video`标签发送音视频数据才行，为了解决这个问题就有了`Media Source Extensions`接口专门给`video`发送数据流用的，但目前手机端尚未普及该接口。当然，上面的`hls.js`和`flv.js`都是基于`Media Source Extensions`实现的，所以也是支持直播的。
 
 [MDN Web Docs - Media_Source_Extensions_API](https://developer.mozilla.org/zh-CN/docs/Web/API/Media_Source_Extensions_API)
 
